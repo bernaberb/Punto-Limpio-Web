@@ -1,0 +1,209 @@
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500,700,900);
+
+body {
+    padding: 0;
+    margin: 0;
+    background: #FFFCF9;
+  }
+
+
+  /*--- nav bar ---*/
+  .navbar {
+    background:#41BCB7;
+  }
+  .nav-link,
+  .navbar-brand {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #FFFCF9;
+    cursor: pointer;
+  }
+  .nav-link {
+    margin-right: 1em !important;
+  }
+  .nav-link:hover {
+    color: #0F8DBF;
+  }
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+
+/*--- Hero section ---*/
+.jumbotron {
+    background: url("img/header.jpg") no-repeat right; /*right asi en movil se ve el cartel de PL y no la nada*/
+    background-size: cover;
+    min-height: 700px; /*tire esta para que ocupe minimo altura*/
+    margin-bottom: 0;
+}
+.btn-primary { /*no hay ningun boton pero si agregamos alguno aca esta el estilo*/
+    background-color: #41BCB7;
+    border-color: #41BCB7;
+}
+
+
+/*--- Testimonial ---*/
+.testimonial10 {
+  font-family: "Montserrat", sans-serif;
+  color: #8f98ae;
+}
+
+.testimonial10 .testi10 .quote-bg {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 60px;
+  background: url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/up-quote.png) no-repeat top left, url(https://www.wrappixel.com/demos/ui-kit/wrapkit/assets/images/testimonial/down-quote.png) no-repeat bottom right;
+}
+
+.testimonial10 .testi10 h3 {
+  line-height: 40px; /*interlineado*/
+  font-size: 24px;
+  color: #FFFCF9;
+  font-weight: 500;
+  text-shadow: #002626 0.1em 0.1em 0.4em;
+}
+
+@media (max-width: 767px) { /*se achica todo cuando es pantalla chica*/
+  .testimonial10 .testi10 h3 {
+    line-height: 30px;
+    font-size: 20px;
+  }
+}
+
+.testimonial10.bg-success-gradiant {
+    background: #41BCB7;
+    background: -webkit-linear-gradient(legacy-direction(to right), #0F8DBF 0%, #41BCB7 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0F8DBF), to(#41BCB7));
+    background: -webkit-linear-gradient(left, #0F8DBF 0%, #41BCB7 100%);
+    background: -o-linear-gradient(left, #0F8DBF 0%, #41BCB7 100%);
+    background: linear-gradient(to right, #0F8DBF 0%, #41BCB7 100%);
+}
+
+
+/*---Que recibimos---*/
+@import url(//fonts.googleapis.com/css?family=Montserrat:300,400,500);
+.service-7 {
+  font-family: "Montserrat", sans-serif;
+  color: #8d97ad;
+  font-weight: 300;
+}
+
+
+.cadaimagen img:hover {
+    opacity: 0.5;
+    border: 2px solid #002626;
+    padding: 3px;
+}
+
+
+.service-7 h1, .service-7 h2, .service-7 h3, .service-7 h4, .service-7 h5, .service-7 h6 {
+  color: #8d97ad;
+}
+
+.service-7 .font-weight-medium {
+	font-weight: 500;
+}
+
+.service-7 a {
+	text-decoration: none;
+}
+
+.service-7 .subtitle {
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.recibimos {
+    color: #8d97ad;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 45px;
+    margin-bottom: 50px;
+}
+
+.olvides {
+    font-weight: 500;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+}
+
+.materiales {
+    font-size: 18px;
+}
+
+
+/*--Donde estamos--*/
+.ubicacion {
+    background: #41BCB7;
+    background: -webkit-linear-gradient(legacy-direction(to right), #0F8DBF 0%, #41BCB7 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#0F8DBF), to(#41BCB7));
+    background: -webkit-linear-gradient(left, #0F8DBF 0%, #41BCB7 100%);
+    background: -o-linear-gradient(left, #0F8DBF 0%, #41BCB7 100%);
+    background: linear-gradient(to right, #0F8DBF 0%, #41BCB7 100%);
+}
+
+.donde {
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    color: #FFFCF9;
+    margin-bottom: 0px;
+}
+
+.click {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    color: #FFFCF9;
+}
+
+.textodonde {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: #FFFCF9;
+    text-align: justify;
+    font-weight: 500;
+}
+
+.nopodes {
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    color: #FFFCF9;
+    font-weight: 500;
+}
+
+.llamanos {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: #FFFCF9;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+/*---Contactos---*/
+i.fas.iconcontact {
+    font-size: 100px;
+}
+
+i.fab.iconcontact {
+    font-size: 100px;
+}
+
+a {
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+
+/*---Footer---*/
+.footer {
+    background-color: #002626;
+    color: #FFFCF9;
+    margin-top: 50px;
+    padding-top: 20px;
+}
